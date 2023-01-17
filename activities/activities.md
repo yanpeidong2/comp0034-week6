@@ -1,11 +1,11 @@
-# Week 6 flipped activities
+# Week 6 flipped activities (70 mins)
 
 Make sure you completed the setup in README.md.
 
-1. Create and run a basic Flask app 15 mins
-2. Create a Flask app using the factory pattern 20 mins
-3. Configure a Flask app 10 mins
-4. Create a Flask app route with an HTML home page that uses Bootstrap CSS 20 mins
+1. [Create and run a basic Flask app (10 mins)](#activity-1-create-and-run-a-basic-flask-app)
+2. [Create a Flask app using the factory pattern (20 mins)](#activity-2-create-a-flask-app-using-the-factory-pattern-approach)
+3. [Configure a Flask app (10 mins)](#activity-3-configure-a-flask-app)
+4. [Create a Flask app route with an HTML home page that uses Bootstrap CSS (30 mins)](#activity-4-create-a-flask-app-route-with-an-html-home-page-that-uses-bootstrap-css)
 
 ## Activity 1: Create and run a basic Flask app
 
@@ -57,7 +57,7 @@ flask --app flask_app/hello --debug run --port 5001
 
 You can also start Flask in code which is [explained here](https://flask.palletsprojects.com/en/2.2.x/server/#in-code).
 
-## Activity 2: Configure a Flask app using the factory pattern approach
+## Activity 2: Create a Flask app using the factory pattern approach
 
 ### A reminder on Python packages and modules
 
@@ -85,7 +85,7 @@ my_app/
         hello.html
 ```
 
-### Configure the app using a factory application function in __init__.py
+### Create the app using a factory application function in __init__.py
 
 For all but the smallest projects you are likely to need to separate your code into
 [modules and packages](https://flask.palletsprojects.com/en/2.2.x/patterns/packages/#simple-packages).
@@ -169,7 +169,7 @@ Check you can run the app and go to the home page. To do this you need to modify
 
 Note: `--debug` enables the debug mode, when used the flask run command will enable the interactive debugger and the reloader by default, and make errors easier to see and debug.
 
-### Add Flask configuration parameters
+## Activity 3: Configure a Flask app
 
 Flask uses [configuration parameters](https://flask.palletsprojects.com/en/2.2.x/config/#configuration-handling); some are optional; others will be required for the particular purposes.
 
@@ -204,7 +204,9 @@ Check that the app still runs:
 
 `python -m flask --app 'paralympic_app:create_app()' --debug run`
 
-## Activity 3: Create a Flask app route with an HTML home page that uses Bootstrap CSS
+Note: this provides the minimum config needed. You may wish to investigate other ways to configure Flask which are explained in [configuration.md](/activities/configuration.md).
+
+## Activity 4: Create a Flask app route with an HTML home page that uses Bootstrap CSS
 
 ### Create the homepage using an HTML template
 
