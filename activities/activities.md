@@ -9,15 +9,6 @@ Make sure you completed the setup in README.md.
 
 ## Activity 1: Create and run a basic Flask app
 
-There are many freely available Flask tutorials such as:
-
-- [Flask documentation tutorial](https://flask.palletsprojects.com/en/2.2.x/tutorial/)
-- [VS Code Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask)
-- [PyCharm Flask tutorial](https://www.jetbrains.com/help/pycharm/creating-web-application-with-flask.html)
-- [Hackers and Slackers blog](https://hackersandslackers.com/your-first-flask-application/)
-- [Patrick Kennedy's blog](https://www.patricksoftwareblog.com/creating-a-simple-flask-web-application/)
-- [Miguel Grinberg's 'Flask mega tutorial' blog](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - this goes well beyond the scope of this first activity!
-
 This activity aims to give you 'just enough' knowledge to get a basic Flask webpage that uses both HTML and Bootstrap CSS. It is adapted from '[A minimal application](https://flask.palletsprojects.com/en/2.2.x/quickstart/#a-minimal-application)' in the Flask documentation.
 
 To complete this activity you will need to have a Python environment in which Flask has been installed (see setup at the start of this document).
@@ -275,6 +266,15 @@ If you wish to go beyond what you have already learned, try the following activi
 
 - [Using Blueprints](/activities/blueprints.md)
 - [Configuring Flask for different environments](/activities/configuration.md)
+
+There are also many freely available Flask tutorials such as:
+
+- [Flask documentation tutorial](https://flask.palletsprojects.com/en/2.2.x/tutorial/)
+- [VS Code Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask)
+- [PyCharm Flask tutorial](https://www.jetbrains.com/help/pycharm/creating-web-application-with-flask.html)
+- [Hackers and Slackers blog](https://hackersandslackers.com/your-first-flask-application/)
+- [Patrick Kennedy's blog](https://www.patricksoftwareblog.com/creating-a-simple-flask-web-application/)
+- [Miguel Grinberg's 'Flask mega tutorial' blog](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - this goes well beyond the scope of this first activity!
 
 ## Solutions
 
