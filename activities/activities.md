@@ -280,4 +280,4 @@ There are also many freely available Flask tutorials such as:
 
 ## Solutions
 
-Potenial solutions to all of the activities are given in the week 7 code.
+Potential solutions to all of the activities are given in the week 7 code.
