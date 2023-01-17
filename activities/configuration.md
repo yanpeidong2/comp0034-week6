@@ -1,15 +1,12 @@
 # How to configure the Flask app
 
-You may need to refer to the [Flask Configuration documentation](https://flask.palletsprojects.com/en/2.0.x/config/)
-during this activity.
+You may need to refer to the [Flask Configuration documentation](https://flask.palletsprojects.com/en/2.0.x/config/) during this activity.
 
 ## Why do you need to care about configuration?
 
-To date we haven't needed to configure the Flask object, however as you start to develop your app you will need to
-configure the app to work support different functionality, some of which require Flask config parameters.
+To date we haven't needed to configure the Flask object, however as you start to develop your app you will need to configure the app to work support different functionality, some of which require Flask config parameters.
 
-You will also start to consider working with Flask in different environments. In COMP0035 we considered 3 environments
-that code may be used in:
+You will also start to consider working with Flask in different environments. In COMP0035 we considered 3 environments that code may be used in:
 
 - Development environment (dev): where the developer creates the code e.g. your machine
 - Testing environment (test): where the testing takes place, this usually mimics the production environment but is
