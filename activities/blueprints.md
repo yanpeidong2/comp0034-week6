@@ -98,3 +98,8 @@ def index():
 ```
 
 Stop and restart the app and then navigate to: <http://127.0.0.1:5000/>
+
+## Further examples
+
+- [Flask documentation on blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints/#modular-applications-with-blueprints)
+- [Miguel Gringerg: Using Blueprints as part of a better application structure](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xv-a-better-application-structure)

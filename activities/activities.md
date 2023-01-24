@@ -280,4 +280,18 @@ There are also many freely available Flask tutorials such as:
 
 ## Solutions
 
-Potential solutions to all of the activities are given in the week 7 code.
+Potential solutions to all of the activities are in the week 7 starter code.
+
+## Knowledge and skills check
+
+Do you know:
+
+1. Know what a template is in Flask
+2. Know what Jinja is and is used for in a Flask app
+
+Can you:
+
+1. Create and run a minimal Flask app
+2. Add Bootstrap CSS/JS to an HTML template
+3. Configure a Flask app using the Factory Pattern
+4. Generate a secret key and add it to the Flask configuration

@@ -152,7 +152,7 @@ For this activity set the database to the same for all environments and set it t
 
 ## Apply the config to the Flask create_app function
 
-You will now need to modify the create_app function you created in the previous exercise to access as a parameter the config class e.g.
+You will now need to modify the create_app function you created in the previous exercise to pass the config clas name as a parameter e.g.
 
 ```python
 from flask import Flask
@@ -175,3 +175,9 @@ def create_app(config_class_name):
 You now need to change how you run the app:
 
 `python -m flask --app 'flask_bp:create_app("config.DevelopmentConfig")' --debug run`
+
+## Further examples
+
+- [Flask documentation: Use classes and inheritance for configuration](https://flask.palletsprojects.com/en/2.2.x/config/#development-production)
+- [Hackers and slackers: configure Flask applications](https://hackersandslackers.com/configure-flask-applications/)
+- [Real Python: Code example in GitHub](https://github.com/realpython/flask-by-example/blob/master/config.py)
