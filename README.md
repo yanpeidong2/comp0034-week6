@@ -7,7 +7,7 @@
 - [Optional activity: Blueprints](/activities/blueprints.md)
 - [Optional activity: Configuring Flask from a Python class](/activities/configuration.md)
 
-## Set-up
+## Setup
 
 Two options are provided for setup.
 
@@ -21,11 +21,11 @@ To date you have used then following approach. This can still be used:
 - Install the dependencies `pip install -r requirements.txt`
 - Install the code you will develop `pip install -e .`
 
-The experience varies between students as there are inconsistent behaviours with imports when using this approach.
+The experience has varied between students as there are inconsistent behaviours with imports when using this approach.
 
 ### 2. poetry
 
-This is an alternative (and newer) approach and it is hoped this may address some of the inconsistency with package imports experienced by students.
+This is an alternative approach for managing packaging and dependencies in Python. It is **hoped** this may address some of the inconsistency with package imports experienced by students. This has not been proven to be the case however as it only just being introduced in the teaching materials this week.
 
 #### 2.1 Install poetry (once only in the base Python environment)
 
@@ -52,7 +52,7 @@ poetry --version
 
 If the version of poetry is not returned from the second command then you need add it to your PATH. See the [poetry installation documentation](https://python-poetry.org/docs/#installing-with-pipx).
 
-#### 2.2 Setup the project using poetry
+#### 2.2 Setup the project environment using poetry
 
 In the VS Code/PyCharm terminal in the project code directory: `poetry env list`. There should not be any output from this command.
 
@@ -64,8 +64,18 @@ As long as you’re inside your project folder, Poetry will now use the virtual 
 
 Now type: `poetry install` to install the dependencies for the project. The dependencies are listed in a file called `pyproject.toml`.
 
+If you type `poetry show` you should see the packages that have been installed.
+
+#### 2.3 Install your own project code
+
 Now install your code in 'editable' mode by running `pip install -e .`
+
+## Further information
 
 If you want to add packages not listed in `pyproject.toml` then you can use a command similar to pip: `poetry add requests` would install the `requests` package.
 
-There is a [tutorial with more detail here](https://realpython.com/dependency-management-python-poetry/).
+[RealPython poetry tutorial](https://realpython.com/dependency-management-python-poetry/).
+
+[Guide here to using VS Code with poetry]()<https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-part-1)>
+
+[Python poetry pyproject.toml keywords](https://python-poetry.org/docs/pyproject/)
