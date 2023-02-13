@@ -1,6 +1,6 @@
 # Week 6 flipped activities (70 mins)
 
-Make sure you completed the setup in README.md.
+**Make sure you completed the setup in README.md.** This is important as the instructions cover managing environments and dependencies using Poetry which replaces `setup.py` and `venv`.
 
 1. [Create and run a basic Flask app (10 mins)](#activity-1-create-and-run-a-basic-flask-app)
 2. [Create a Flask app using the factory pattern (20 mins)](#activity-2-create-a-flask-app-using-the-factory-pattern-approach)
@@ -85,7 +85,7 @@ my_app/
         hello.html
 ```
 
-### Create the app using a factory application function in __init__.py
+### Create the app using a factory application function in **init**.py
 
 For all but the smallest projects you are likely to need to separate your code into
 [modules and packages](https://flask.palletsprojects.com/en/2.2.x/patterns/packages/#simple-packages).
@@ -246,7 +246,7 @@ While there are some Flask Bootstrap libraries these don't appear necessarily ma
 
 The [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) introduction explains how to either use an online version of Bootstrap, or download and include the files in your project structure.
 
-If you download Bootstrap, you need to place it in the [static](https://flask.palletsprojects.com/en/2.2.x/quickstart/#static-files) folder. Unless you specify otherwise, Flask looks for static files such as CSS and JavaScript in a folder called `static` in a __package__; or in a folder at the same level if you create your Flask app in a __module__.
+If you download Bootstrap, you need to place it in the [static](https://flask.palletsprojects.com/en/2.2.x/quickstart/#static-files) folder. Unless you specify otherwise, Flask looks for static files such as CSS and JavaScript in a folder called `static` in a **package**; or in a folder at the same level if you create your Flask app in a **module**.
 
 Bootstrap 5.3 has already been added to the `static` folder for convenience.
 
