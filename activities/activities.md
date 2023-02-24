@@ -35,8 +35,16 @@ def index():
 
 To [run a Flask app](https://flask.palletsprojects.com/en/2.2.x/quickstart/) in VS Code, go to Terminal and type
 
+On mac/linux:
+
 ```text
-flask --app flask_app/hello --debug run
+flask --app src/flask_app/hello --debug run
+```
+
+On Windows:
+
+```text
+flask --app src\flask_app\hello --debug run
 ```
 
 `--app` tells Flask where you app code is. If the app code is in a directory, e.g. in the `flask_app` directory in a module called `hello.py`, then you would type `flask --app flask_app/hello --debug run`.
@@ -51,8 +59,10 @@ You should see the server start. If it successfully starts your Flask app, the U
 
 If you already have [something running on port 5000](https://flask.palletsprojects.com/en/2.2.x/server/#address-already-in-use), you can change the port in the run options, e.g.
 
+Note: for windows change '/' to '\'
+
 ```text
-flask --app flask_app/hello --debug run --port 5001
+flask --app src/flask_app/hello --debug run --port 5001
 ```
 
 You can also start Flask in code which is [explained here](https://flask.palletsprojects.com/en/2.2.x/server/#in-code).
