@@ -165,7 +165,7 @@ def create_app():
 
 Check you can run the app and go to the home page. To do this you need to modify the run command so it calls the `create_app()` function:
 
-`python -m flask --app 'paralympic_app:create_app()' --debug run`
+`python -m flask --app 'flask_app:create_app()' --debug run`
 
 Note: `--debug` enables the debug mode, when used the flask run command will enable the interactive debugger and the reloader by default, and make errors easier to see and debug.
 

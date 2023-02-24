@@ -1,4 +1,3 @@
-# Retained for those who still wish to use this
 from setuptools import setup, find_packages
 
 setup(
