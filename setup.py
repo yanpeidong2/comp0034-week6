@@ -5,5 +5,5 @@ setup(
     packages=["flask_app", find_packages()],
     package_dir={"": "src"},
     include_package_data=True,
-    install_requires=["flask", "pandas", "openpyxl"],
+    install_requires=["flask"],
 )
