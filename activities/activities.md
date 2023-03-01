@@ -38,14 +38,24 @@ To [run a Flask app](https://flask.palletsprojects.com/en/2.2.x/quickstart/) in 
 On mac/linux:
 
 ```text
-flask --app src/flask_app/hello --debug run
+# According to the Flask documentation linked above, you can use either command
+
+python -m flask --app flask_app/hello --debug run
+
+flask --app flask_app/hello --debug run
 ```
 
 On Windows:
 
 ```text
-flask --app src\flask_app\hello --debug run
+# According to the Flask documentation linked above, you can use either command
+
+python -m flask --app flask_app\hello --debug run
+
+flask --app flask_app\hello --debug run
 ```
+
+0r
 
 `--app` tells Flask where you app code is. If the app code is in a directory, e.g. in the `flask_app` directory in a module called `hello.py`, then you would type `flask --app flask_app/hello --debug run`.
 
