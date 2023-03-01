@@ -72,7 +72,7 @@ If you already have [something running on port 5000](https://flask.palletsprojec
 Note: for windows change '/' to '\'
 
 ```text
-flask --app src/flask_app/hello --debug run --port 5001
+flask --app flask_app/hello --debug run --port 5001
 ```
 
 You can also start Flask in code which is [explained here](https://flask.palletsprojects.com/en/2.2.x/server/#in-code).
@@ -258,7 +258,7 @@ In VSCode Press CTRL+C to quit Flask.
 
 Run the app again as you did before in Terminal e.g.
 
-`python -m flask --app 'paralympic_app:create_app()' --debug run`
+`python -m flask --app 'flask_app:create_app()' --debug run`
 
 ### Add Bootstrap CSS styling to the homepage
 
